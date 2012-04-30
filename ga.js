@@ -12,7 +12,7 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.googleanalytics.com/ga.js';
 
   var s = document.getElementsByTagName('script')[0]; 
-  console.log(s.parentNode);
+
   s.parentNode.insertBefore(ga, s);
 
 })();
