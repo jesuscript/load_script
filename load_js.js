@@ -49,7 +49,7 @@ loadScript("http://4qinvite.4q.iperceptions.com/1.aspx?sdfc=635baa10-27120-0a53e
            {defer:"defer"}
           );
 
-//load external facebook code with some extra html
+//load external facebook code
 loadScript(
   "http://connect.facebook.net/en_US/all.js",
   function(){
